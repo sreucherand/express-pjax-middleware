@@ -9,7 +9,7 @@ module.exports = function() {
     }
     
     res.renderPjax = function(view, options, fn) {
-      if (req.pjax) {
+      if (req.pjax) {
         var container = req.header('X-PJAX-CONTAINER') || "";
         
         if (container.charAt(0) === '#') {
@@ -28,7 +28,7 @@ module.exports = function() {
           
           res.send(domutils.getInnerHTML(fragment) || html);
           
-          if('function' === typeof fn){
+          if('function' === typeof fn) {
             fn(err, html);
           }
         });
