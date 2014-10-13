@@ -1,0 +1,19 @@
+{
+  "name": "express-pjax-middleware",
+  "description": "Express middleware for PJAX partial rendering with X-PJAX-CONTAINER.",
+  "version": "0.0.1",
+  "homepage": "http://github.com/sreucherand/express-pjax-middleware",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sreucherand/express-pjax-middleware.git"
+  },
+  "keywords": [
+    "express",
+    "pjax"
+  ],
+  "author": "Sylvain Reucherand <hello@sylvainreucherand.fr>",
+  "main": "pjax.js",
+  "dependencies": {
+    "htmlparser2": "^3.7.3"
+  }
+}
