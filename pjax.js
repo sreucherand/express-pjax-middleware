@@ -26,7 +26,7 @@ module.exports = function() {
           var domutils = htmlparser.DomUtils;
           var fragment = domutils.getElementById(container, dom) || "";
           
-          res.send(domutils.getOuterHTML(fragment) || html);
+          res.send(domutils.getInnerHTML(fragment) || html);
           
           if('function' === typeof fn) {
             fn(err, html);
