@@ -12,7 +12,7 @@ Express middleware for PJAX partial rendering with X-PJAX-CONTAINER.
 
 ## Example
 
-index.jade
+In index.jade:
 ```jade
 h1 Application
 
@@ -21,7 +21,7 @@ h1 Application
     p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ullam adipisci hic dolore nemo tenetur iste saepe, sapiente placeat provident. Obcaecati accusamus itaque rerum, sed nemo eligendi voluptas vel sit!
 ```
 
-server.js
+In server.js:
 ```javascript
 var express = require('express');
 var pjax = require('express-pjax-middleware');
